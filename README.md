@@ -13,9 +13,9 @@
 - Country
 - Region
 - Infant_deaths
-- Under_five_deaths
-- Adult_mortality
-- Life_expectancy
+- Under five deaths
+- Adult mortality
+- Life expectancy
 
 ---
 
@@ -23,7 +23,7 @@
 
 Before analysis, the dataset was cleaned to improve data quality.
 
-- Missing values in Under_five_deaths and Adult_mortality were replaced using the mean of each column.
+- Missing values in Under five deaths and Adult mortality were replaced using the mean of each column.
 - Three duplicate rows were identified and removed.
 - The cleaned dataset was then used for descriptive statistical analysis.
 
@@ -35,7 +35,7 @@ Before analysis, the dataset was cleaned to improve data quality.
 
 ## Insight
 
-The descriptive statistics indicate that adult mortality varies considerably across countries**, with the highest standard deviation (111.49) among all variables. In comparison, life expectancy has a mean of 68.86 years and a much lower standard deviation (9.20), suggesting that while mortality levels differ greatly between countries, life expectancy is relatively more consistent.
+The descriptive statistics indicate that adult mortality varies considerably across countries, with the highest standard deviation (111.49) among all variables. In comparison, life expectancy has a mean of 68.86 years and a much lower standard deviation (9.20), suggesting that while mortality levels differ greatly between countries, life expectancy is relatively more consistent.
 
 # Figure 1 – Distribution of Life Expectancy
 
