@@ -1,12 +1,3 @@
-# Life Expectancy Data Analysis (MIS311)
-
-## Project Overview
-
-This project was completed for **MIS311 – Introduction to Business Analytics**.
-
-The objective of this project is to perform **Exploratory Data Analysis (EDA)** on the **Life Expectancy Dataset** using Microsoft Excel. The analysis includes data cleaning, descriptive statistics, data visualization, and business insights to identify factors affecting life expectancy.
-
----
 
 ## Dataset Information
 
@@ -32,11 +23,19 @@ The objective of this project is to perform **Exploratory Data Analysis (EDA)** 
 
 Before analysis, the dataset was cleaned to improve data quality.
 
-- Missing values in **Under_five_deaths** and **Adult_mortality** were replaced using the **mean** of each column.
-- **Three duplicate rows** were identified and removed.
+- Missing values in Under_five_deaths and Adult_mortality were replaced using the mean of each column.
+- Three duplicate rows were identified and removed.
 - The cleaned dataset was then used for descriptive statistical analysis.
 
 ---
+## Descriptive Statistics
+
+<img width="924" height="290" alt="image" src="https://github.com/user-attachments/assets/749c7455-15ee-4dab-9281-fa3cb74918f4" />
+
+
+## Insight
+
+The descriptive statistics indicate that adult mortality varies considerably across countries**, with the highest standard deviation (111.49) among all variables. In comparison, life expectancy has a mean of 68.86 years and a much lower standard deviation (9.20), suggesting that while mortality levels differ greatly between countries, life expectancy is relatively more consistent.
 
 # Figure 1 – Distribution of Life Expectancy
 
@@ -45,7 +44,7 @@ Before analysis, the dataset was cleaned to improve data quality.
 
 ### Insight
 
-The histogram indicates that most countries have a **life expectancy between approximately 65 and 80 years**. Only a small number of countries have considerably lower life expectancy, suggesting that extremely poor health outcomes are relatively uncommon in this dataset.
+The histogram indicates that most countries have a life expectancy between approximately 65 and 80 years. Only a small number of countries have considerably lower life expectancy, suggesting that extremely poor health outcomes are relatively uncommon in this dataset.
 
 ---
 
@@ -56,7 +55,7 @@ The histogram indicates that most countries have a **life expectancy between app
 
 ### Insight
 
-The scatter plot reveals a **negative relationship** between adult mortality and life expectancy. Countries with higher adult mortality generally have lower life expectancy. This suggests that improving healthcare services and reducing adult mortality could significantly increase the average lifespan of a population.
+The scatter plot reveals a negative relationship between adult mortality and life expectancy. Countries with higher adult mortality generally have lower life expectancy. This suggests that improving healthcare services and reducing adult mortality could significantly increase the average lifespan of a population.
 
 ---
 
@@ -89,12 +88,3 @@ This project demonstrates how Exploratory Data Analysis (EDA) can transform raw 
 
 ---
 
-## Author
-
-**Nguyễn Anh Hào**
-
-Business Administration – Supply Chain Management
-
-Eastern International University
-
-MIS311 – Introduction to Business Analytics
